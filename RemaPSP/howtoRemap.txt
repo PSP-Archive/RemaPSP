@@ -1,0 +1,51 @@
+Read this file then go check out the included remaps, you should figure it out :)
+
+################## Remap Files ##################
+
+Line 1: The name of the remap, ignored by RemaPSP
+Line 2-17: The actual remaps.
+           A remap line contains the buttons that you can press to make the running program think you are pressing its corresponding button.
+           Check remaps/default.txt to find out what each line is for.
+           Anything following a # is counted as a comment and ignored.
+           Example: Line 6 corresponds to Triangle. So if line 6 is "+d_up +triangle", then you can press either Digital up or the Triangle button and it will make the game think you are pressing Triangle.
+           You can also have Turbo (Rapid fire!), making line 6 "~d_up +triangle" instead will mean that pressing triangle will make the game think that triangle is being pressed, but pressing Digital up will make the game think triangle is being rapidly pressed.
+           You can have a button press multiple others, if you have line 2 and 3 both "+square" then pressing square will make the game think that Digital up and right are pressed.
+
+Line 18+20: Macro triggers.
+            A line containing presses ("+" only). When pressing all these buttons at the same time, the macro file on the following line will be executed.
+            Only digital buttons including digital arrows and the remote may be used to trigger a macro.
+            Example: (From macro_test.txt, line 18) "+rtrigger +ltrigger #blah", Press LTrigger and RTrigger and it will run the macro.
+            Simple really :)
+
+Line 19+21: Name of the macro file to load for the above macro.
+            YOU ARE NOT ALLOWED COMMENTS ON THIS LINE. DO NOT HAVE EXTRA WHITE SPACE ON THIS LINE.
+            This file will be loaded from ms0:/remaps/macros/
+
+Any following lines are not parsed, they are allowed to include comments or whatever :)
+You can map and of the remote, analog or digital controls to any of the analog or digital controls.
+You may not have more than one analog control assigned to an analog control -- You can't have ana_left and ana_up assigned on the same analog line, you could have ana_up control ana_left and ana_up however.
+
+################## Macro Files ##################
+
+Line 1: The name of the macro, ignored by RemaPSP
+Line 2: The size of the macro, this is the amount of key press lines the macro has in it.
+        After this number you can put the string "once", this means the macro can only be ran one time after the remap is loaded.
+        Useful for macros for starting games, etc.
+Line 3-X: Macro lines. Format: "TIME BUTTON BUTTON ETC"
+          TIME: Time in microseconds to hold the button press (1000000 = 1 second)
+          BUTTON BUTTON ETC: A set of buttons to hold for this time period.
+          Example: "1000000 +d_right ~cross". This will hold right while rapidly pressing cross for 1 second.
+
+Any further lines are ignored.
+
+######## Notes on Macros ########
+There is a maximum of 40 key press lines in a macro file.
+Be careful when trying to press a button repeatedly, Example:
+   1000000 +cross
+   1000000 +cross
+The game will not consider this pressing cross twice as it doesn't get to read it being unpressed, instead make this something like...
+    900000 +cross
+    100000
+    900000 +cross
+    100000
+Which will work correctly.

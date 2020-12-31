@@ -1,0 +1,31 @@
+Default controls (Name of control set, creator? this line is ignored!)
++d_up      # Digital Up
++d_right   # Digital Right
++d_down    # Digital Down
++d_left    # Digital Left
++triangle  # Triangle
++circle    # Circle
++cross     # Cross
++square    # Square
++start     # Start
++select    # Select
++ltrigger  # L Trigger
++rtrigger  # R Trigger
++ana_up    # Analog Up
++ana_right # Analog Right
++ana_down  # Analog Down
++ana_left  # Analog Left
+#macro one, specify the macro filename on the next line (or leave blank for none). Macros will be explained later ;)
+
+#macro two, specify the macro filename on the next line (or leave blank for none)
+
+Any lines from here on are ignored, may as well write the documents in here :)
+
+Anything on a line after a # is a comment and is ignored. EXCEPT ON THE MACRO FILENAME LINES!
+
+Each of the lines above sets what buttons you can press to perform the thing after the #, line 2 says: if d_up (Digital up) is pressed, then Digital up is pressed. (Useful isn't it! lol)
+You can ofcourse set multiple things up to press a button, for example if you replaced the first line with:
++cross +rtrigger
+Then you could press X or the R Trigger to press Digital up, pressing digital up would no longer make the game think you are pressing it!
+
+Check out the other included remaps to see more advanced features!

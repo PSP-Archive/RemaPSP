@@ -1,0 +1,7 @@
+Astonishia Story - Skip turn Macro.
+3 #Size of macro
+100000 +cross
+100000 +d_down
+100000 +cross
+
+Skips the current persons turn from movement mode.

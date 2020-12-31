@@ -1,0 +1,23 @@
+Backwards Land! Reverse up/down left/right on Analog and digital!
++d_down    # Digital Up
++d_left    # Digital Right
++d_up      # Digital Down
++d_right   # Digital Left
++triangle  # Triangle
++circle    # Circle
++cross     # Cross
++square    # Square
++start     # Start
++select    # Select
++ltrigger  # L Trigger
++rtrigger  # R Trigger
++ana_down  # Analog Up
++ana_left  # Analog Right
++ana_up    # Analog Down
++ana_right  # Analog Left
+#macro one, specify the macro filename on the next line (or leave blank for none). Macros will be explained later ;)
+
+#macro two, specify the macro filename on the next line (or leave blank for none)
+
+
+You can of course map any control to any other, this file is an example reversing all the directions

@@ -1,0 +1,14 @@
+Default controls (Name of control set, creator? this line is ignored!)
++d_up     # Digital Up
++d_right  # Digital Right
++d_down   # Digital Down
++d_left   # Digital Left
++triangle # Triangle
++circle   # Circle
++cross    # Cross
++square   # Square
++start # Start
++select # Select
++ltrigger # L Trigger
++rtrigger # R Trigger
+# TODO: analog!

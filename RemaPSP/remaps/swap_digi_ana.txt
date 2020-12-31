@@ -1,0 +1,24 @@
+Swap the digital and analog, simple test :)
++ana_up     # Digital Up
++ana_right  # Digital Right
++ana_down   # Digital Down
++ana_left   # Digital Left
++triangle   # Triangle
++circle     # Circle
++cross      # Cross
++square     # Square
++start      # Start
++select     # Select
++ltrigger   # L Trigger
++rtrigger   # R Trigger
++d_up       # Analog Up
++d_right    # Analog Right
++d_down     # Analog Down
++d_left     # Analog Left
+#macro one, specify the macro filename on the next line (or leave blank for none). Macros will be explained later ;)
+
+#macro two, specify the macro filename on the next line (or leave blank for none)
+
+
+Analog sticks are handled smartly, you can assign them to digital or analog controls.
+If assigned to an analog it works like an analog, if on a digital it works digital :)

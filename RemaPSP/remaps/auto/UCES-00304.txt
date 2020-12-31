@@ -1,0 +1,29 @@
+LocoRemoto + Locolaunch by LordSturm and Danzel
++d_up               # Digital Up
++d_right            # Digital Right
++d_down             # Digital Down
++d_left             # Digital Left
++triangle           # Triangle
++circle +r_play     # Circle
++cross              # Cross
++square             # Square
++start              # Start
++select             # Select
++ltrigger  +r_left  # L Trigger
++rtrigger  +r_right # R Trigger
++ana_up             # Analog Up
++ana_right          # Analog Right
++ana_down           # Analog Down
++ana_left           # Analog Left
++square             #macro one
+locolaunch.txt
+#macro two
+
+#######
+Use the remote ( Headset remote. ) to control the loco!
+Controls:
+	Prev Track: left
+	Next Track: right
+	Play: Split/Join.
+
+You can also press SQUARE to launch the latest level when you are hovered over the flag to chose your language.

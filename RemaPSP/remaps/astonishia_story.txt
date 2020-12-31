@@ -1,0 +1,25 @@
+Astonishia Story remap, adds 'attack from move' to Square and 'skip from move' to Triangle
++d_up      # Digital Up
++d_right   # Digital Right
++d_down    # Digital Down
++d_left    # Digital Left
++triangle  # Triangle
++circle    # Circle
++cross     # Cross
++square    # Square
++start     # Start
++select    # Select
++ltrigger  # L Trigger
++rtrigger  # R Trigger
++ana_up    # Analog Up
++ana_right # Analog Right
++ana_down  # Analog Down
++ana_left  # Analog Left
++square #macro one, Press square to attack
+astonishia_attack.txt
++triangle #macro two, Press triangle to skip turn
+astonishia_skip.txt
+
+My control set up for astonishia story.
+Pressing Square during battle while it is your characters turn and they are in movement mode will put them into attack mode.
+Pressing Triangle during battle while it is your characters turn and they are in movement mode will skip their turn.

@@ -1,0 +1,23 @@
+The infamous LocoLaunch! (By Lordsturm!)
+17 once
+100000 +cross
+9000000
+100000 +cross
+500000
+100000 +cross
+4000000
+100000 +cross
+1000000
+100000 +circle
+5000000
+100000 +d_up
+500000
+100000 +cross
+2500000
+100000 +cross
+300000
+100000 +cross
+
+Use this whilst hovering over your favorite flag to load up your save game and start your latest level.
+This uses the "once" directive on the size line, which means that it can only be ran once after the remap is loadded.
+This means that if you accidentally press this macros trigger again once the game is running it won't trigger.

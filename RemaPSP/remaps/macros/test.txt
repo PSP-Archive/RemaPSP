@@ -1,0 +1,14 @@
+The first evar macro!~ This is a comment line :)
+5 once #Size of macro, MAKE SURE THIS IS RIGHT :P MAXIMUM OF 40!!!!!!!!
+1000000 +d_up
+1000000 +d_right
+1000000 +d_down
+1000000 +d_left
+2000000 ~triangle ~circle ~square ~cross #turbo these buttons for 2 seconds :)
+
+And now an explanation of macros!
+1000000 +d_up
+^ Time to hold macro (In microseconds, 1000000 = 1 second)
+        ^Key combination to hold for this time, can be press (+) or turbo (~), multiple are supported. comments are allowed
+
+This holds Digital up for one second, then holds digital right for one second, then holds digital down for one second, then holds digital left for one second, then zzzzz.... holds turbo triangle, circle, square and cross for 2 seconds.

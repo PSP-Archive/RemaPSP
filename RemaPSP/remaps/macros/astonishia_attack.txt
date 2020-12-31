@@ -1,0 +1,7 @@
+Astonishia Story - Attack Macro.
+3 #Size of macro
+100000 +cross
+100000 +d_up
+100000 +cross
+
+Goes to attack mode from movement mode.

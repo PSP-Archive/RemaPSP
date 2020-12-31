@@ -1,0 +1,17 @@
+The Second evar macro~ And the first useful one!
+12 #Size of macro
+300000 +square +circle
+300000 +triangle
+200000 +square
+100000
+200000 +square
+100000
+200000 +square
+100000
+300000 +circle
+100000
+300000 +circle
+100000
+
+This is a combo for Asuka in Tekken Dark Ressurection.
+Use it in practice mode while standing :)

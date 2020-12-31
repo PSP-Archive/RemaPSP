@@ -1,0 +1,32 @@
+Remote example, Made by danzel.
++d_up               # Digital Up
++d_right            # Digital Right
++d_down             # Digital Down
++d_left             # Digital Left
++triangle           # Triangle
++circle +r_play     # Circle
++cross              # Cross
++square             # Square
++start              # Start
++select             # Select
++ltrigger  +r_left  # L Trigger
++rtrigger  +r_right # R Trigger
++ana_up             # Analog Up
++ana_right          # Analog Right
++ana_down           # Analog Down
++ana_left           # Analog Left
+#macro one, specify the macro filename on the next line (or leave blank for none). Macros will be explained later ;)
+
+#macro two, specify the macro filename on the next line (or leave blank for none)
+
+
+Of course the remote control is supported :) Playing loco roco on it is mega fun, hence thats what this is set up to do :)
+Controls:
+	Prev Track: left
+	Next Track: right
+	Play: Split/Join.
+
+Valid options for the remote:
+r_left r_right (Previous/Next Track)
+r_play
+r_up r_down (Volume)

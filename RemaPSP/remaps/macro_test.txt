@@ -1,0 +1,29 @@
+Macro Example!
++d_up      # Digital Up
++d_right   # Digital Right
++d_down    # Digital Down
++d_left    # Digital Left
++triangle  # Triangle
++circle    # Circle
++cross     # Cross
++square    # Square
++start     # Start
++select    # Select
++ltrigger  # L Trigger
++rtrigger  # R Trigger
++ana_up    # Analog Up
++ana_right # Analog Right
++ana_down  # Analog Down
++ana_left  # Analog Left
++rtrigger +ltrigger    #macro one, you must press all these buttons at the same time to run this macro. Specify the macro filename on the next line (or leave blank for none).
+tek_asuka.txt
++cross +circle         #macro two, specify the macro filename on the next line (or leave blank for none)
+test.txt
+
+This is an example of running macros, you are allowed a maximum of 2 per remap set.
+
+In this example if you press rtrigger and ltrigger at the same time it will run the macro in ms0:/remaps/macros/tek_asuka.txt
+or if you press cross and circle at the same time it will run ms0:/remaps/macros/test.txt
+
+While a macro is button NO INPUT IS ACTIVE. This is done on purpose, as a single button press macro will not press that button, it will just run the macro.
+Also, the buttons you need to press are checked against the actual buttons you are pressing, not against the remapped ones.

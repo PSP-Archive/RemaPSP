@@ -1,0 +1,25 @@
+TARGET = conftest
+APPOBJS= conf.o test.o
+
+OBJS = $(APPOBJS)
+
+INCDIR = 
+#CFLAGS = -O2 -G0 -Wall
+CFLAGS = -O2 -G0 -g -Wall
+CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
+ASFLAGS = $(CFLAGS) -c
+
+LIBDIR =
+LDFLAGS =
+#LIBS = 
+#LIBS = -lpspgu -lpspwlan -lpsppower -lstdc++
+#USE_PSPSDK_LIBC = 1
+
+#EXTRA_TARGETS = EBOOT.PBP
+#PSP_EBOOT_TITLE = webnab
+
+PSPSDK=$(shell psp-config --pspsdk-path)
+include $(PSPSDK)/lib/build.mak
+
+install:
+	mount /mnt/psp && cp webnab webnab% /mnt/psp/psp/game -r && umount /mnt/psp
